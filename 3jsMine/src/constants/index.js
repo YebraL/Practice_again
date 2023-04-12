@@ -22,6 +22,8 @@ import {
   import navy from '../assets/company/navy.png'
   import valerio from '../assets/company/valerio.png'
   import ace from '../assets/company/ace.png'
+  import idleGame from '../assets/idlegame.png'
+  import fastFood from '../assets/fastFood.png'
   
   export const navLinks = [
     {
@@ -163,9 +165,9 @@ import {
   
   const projects = [
     {
-      name: "Fantasy Idle Game",
+      name: "Idle Platoon",
       description:
-        "Web application that allowed user to play as a fantasy character passively without to much effort",
+        "Web application that allowed user to play as a fantasy character passively without too much effort",
       tags: [
         {
           name: "react",
@@ -184,11 +186,11 @@ import {
           color: "yellow-text-gradient",
         },
       ],
-      image: carrent,
+      image: idleGame,
       source_code_link: "https://github.com/YebraL/Game-Idle",
     },
     {
-      name: "Rest Up",
+      name: "Fast-Food",
       description:
         "Website that acts like social media for food lovers and it has a unique feature that will randomizely pick a restaurant around your location if the user can't decide which restaurant to pick",
       tags: [
@@ -209,7 +211,7 @@ import {
           color: "yellow-text-gradient",
         },
       ],
-      image: jobit,
+      image: fastFood,
       source_code_link: "https://github.com/YebraL/FastFood",
     },
   ];
