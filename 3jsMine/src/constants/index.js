@@ -1,20 +1,14 @@
 import {
-    mobile,
     backend,
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
     meta,
     starbucks,
     tesla,
@@ -24,6 +18,10 @@ import {
     tripguide,
     threejs,
   } from "../assets";
+  import postgresql from '../assets/tech/postgresql.png'
+  import navy from '../assets/company/navy.png'
+  import valerio from '../assets/company/valerio.png'
+  import ace from '../assets/company/ace.png'
   
   export const navLinks = [
     {
@@ -44,10 +42,6 @@ import {
     {
       title: "Web Developer",
       icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
     },
     {
       title: "Backend Developer",
@@ -73,16 +67,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -93,8 +79,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Postgresql",
+      icon: postgresql,
     },
     {
       name: "Three JS",
@@ -104,67 +90,46 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Ship Engineer (MM)",
+      company_name: "US Navy",
+      icon: navy,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2013 - February 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Managed 200 hours preventative maintenance on both rudder system and aircraft elevator which increased the longevity of the ship by 23%",
+        "Trained and supervised the professional development of 25 personnel in maintaining the A/C unit and refrigeration units including operations, technical drawings, and maintenance best practices",
+        "Negotiated contract prices, timelines and personnel with civilian contractors and Navy supervisors",
+        "Held 100% accountable for equipment worth more than $80 million",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Bakery Assistant",
+      company_name: "Valerio's Tropical Bakery",
+      icon: valerio,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Feb 2017 - Aug 2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Ensured the dough was made correctly and efficiently",
+        "Prepared the pastries to their right shape and flavor",
+        "Baked the products to the right time and temperature",
+        "Communicated any products that the store are lacking to the head baker",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Store Clerk",
+      company_name: "J.C. Licht: Ace Hardware",
+      icon: ace,
+      iconBg: "#383E56",
+      date: "June 2021 - Oct 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Provided a positive representation of Ace Hardware and gave great customer service",
+        "Continuosly assist with merchandise resets and restock through the store",
+        "Proactively assist customer in solving problems",
+        "Ensure all calls were answered promptly, courteously and effectively",
       ],
     },
   ];
@@ -198,67 +163,54 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Fantasy Idle Game",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web application that allowed user to play as a fantasy character passively without to much effort",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "postgresql",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "bootstrap",
           color: "pink-text-gradient",
+        },
+        {
+          name: "django",
+          color: "yellow-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/YebraL/Game-Idle",
     },
     {
-      name: "Job IT",
+      name: "Rest Up",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Website that acts like social media for food lovers and it has a unique feature that will randomizely pick a restaurant around your location if the user can't decide which restaurant to pick",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "postgresql",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "bootstrap",
           color: "pink-text-gradient",
+        },
+        {
+          name: "django",
+          color: "yellow-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/YebraL/FastFood",
     },
   ];
   
