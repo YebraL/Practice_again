@@ -71,7 +71,7 @@ const Works = () => {
     <>
       {/* title */}
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My work</p>
+        <p className={styles.sectionSubText}>My work and group capstone</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
 
@@ -81,7 +81,7 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Following projects showcases my skills and experience through real-world
-          examples of my work. Each links to code repositories and live demos in it.
+          examples of my work. Each links to code repositories and video demos in it.
           It reflects my ability to solve complex problems, work with different technologies,
           and manage projects effectivly.
         </motion.p>
