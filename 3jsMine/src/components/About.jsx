@@ -43,10 +43,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm skilled software developer when it comes to JavaScript 
-        and React framework. I'm a quick learner and collaborate closely with
-        clients to create efficient, scalble and user-friendly solutions that
-        solve real-world problems. Let's work together!
+        As a highly skilled software developer with expertise in JavaScript and 
+        the React framework, I bring a wealth of knowledge and experience to any project. 
+        My ability to quickly adapt and learn new technologies allows me to collaborate 
+        with fellow developers to make efficient, scalable, and user-friendly solutions
+        that address real-world problems. 
+        If you're looking for a dedicated and capable partner, I would be thrilled to work with you. Let's create something amazing together!
 
       </motion.p>
 
